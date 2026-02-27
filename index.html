@@ -367,15 +367,74 @@ h1{font-family:var(--serif);font-size:clamp(2.2rem,5vw,3.2rem);line-height:1.15;
 
 <!-- HOBBIES -->
 <div id="page-hobbies" class="page">
-  <div class="sec-head fi"><h2>Life Outside Work</h2><p>The things that keep me going between sprints.</p></div>
-  <p class="hobby-intro fi">I believe a good life is built in the margins &mdash; on the road, on the court, or wherever the next adventure takes me.</p>
-  <div class="hobby-grid">
-    <div class="hobby-card fi"><span class="hobby-icon">&#x1F3CD;&#xFE0F;</span><div class="hobby-name">Motorcycle Riding</div><div class="hobby-desc">Clearing my head on BC's open roads. The Okanagan has some of the best routes in the province.</div></div>
-    <div class="hobby-card fi"><span class="hobby-icon">&#x1F3D0;</span><div class="hobby-name">Volleyball</div><div class="hobby-desc">Beach or indoor &mdash; the teamwork and strategy scratch the same itch as problem-solving at work.</div></div>
-    <div class="hobby-card fi"><span class="hobby-icon">&#x1F3AE;</span><div class="hobby-name">Gaming</div><div class="hobby-desc">Started in game programming at Centennial. The passion never left &mdash; RPGs and strategy are my go-to.</div></div>
-    <div class="hobby-card fi"><span class="hobby-icon">&#x1F3D4;&#xFE0F;</span><div class="hobby-name">Outdoors</div><div class="hobby-desc">Kelowna means incredible trails and lakes right at the door. Hiking whenever the weather agrees.</div></div>
-    <div class="hobby-card fi"><span class="hobby-icon">&#x1F4DA;</span><div class="hobby-name">Learning</div><div class="hobby-desc">Keeping up with Salesforce releases, AI tooling, and anything that makes work or life smarter.</div></div>
-    <div class="hobby-card fi"><span class="hobby-icon">&#x2615;</span><div class="hobby-name">Good Coffee</div><div class="hobby-desc">Kelowna has a great caf&eacute; scene. Always looking for the next great cup and a good conversation.</div></div>
+  <div class="sec-head fi"><h2>Beyond the 9-to-5</h2><p>Travel, movement, and good music — the stuff that actually matters.</p></div>
+
+  <div class="fi" style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:3rem">
+
+    <!-- TRAVEL - big card spanning full width -->
+    <div style="grid-column:1/-1;background:var(--bg);padding:2.5rem;display:flex;gap:3rem;align-items:center">
+      <div style="font-size:3.5rem;flex-shrink:0">✈️</div>
+      <div>
+        <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:0.4rem">Always moving</div>
+        <div style="font-family:var(--serif);font-size:1.4rem;font-weight:600;margin-bottom:0.6rem">Travel & Culture</div>
+        <p style="font-size:0.9rem;color:#5a5755;line-height:1.8;max-width:520px">New cities, new food, new perspectives. I travel to get uncomfortable in the best way possible — whether that's navigating a chaotic market in a country where I don't speak the language, or road-tripping somewhere with no plan and a full tank. The goal is always to come back with a better story than I left with.</p>
+      </div>
+    </div>
+
+    <!-- ROAD TRIPS -->
+    <div style="background:var(--bg);padding:2rem">
+      <div style="font-size:2.2rem;margin-bottom:1rem">🛣️</div>
+      <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:0.3rem">On the road</div>
+      <div style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:0.5rem">Road Trips</div>
+      <p style="font-size:0.85rem;color:#6a6765;line-height:1.75">BC has some of the most ridiculous drives on the planet and I've done most of them. Windows down, good playlist, no real schedule. The journey always beats the destination.</p>
+    </div>
+
+    <!-- MUSIC -->
+    <div style="background:var(--bg);padding:2rem;border-left:1px solid var(--border)">
+      <div style="font-size:2.2rem;margin-bottom:1rem">🎧</div>
+      <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:0.3rem">Always on</div>
+      <div style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:0.5rem">Music</div>
+      <p style="font-size:0.85rem;color:#6a6765;line-height:1.75">My mood in playlist form. Every trip, workout, and late-night drive has its own soundtrack. Genre-fluid — hip hop to indie to stuff I can't really explain but somehow works.</p>
+    </div>
+
+    <!-- FITNESS -->
+    <div style="grid-column:1/-1;background:var(--surface);padding:2rem;border-top:1px solid var(--border);display:flex;align-items:center;gap:2rem">
+      <div style="font-size:2.2rem;flex-shrink:0">🏋️</div>
+      <div>
+        <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:0.3rem">Daily habit</div>
+        <div style="font-family:var(--serif);font-size:1.1rem;font-weight:600;margin-bottom:0.4rem">Fitness & Training</div>
+        <p style="font-size:0.85rem;color:#6a6765;line-height:1.75;max-width:560px">The gym is where I reset. Consistent training keeps everything else in check — energy, focus, headspace. It's less about aesthetics and more about showing up for yourself every day.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Currently section -->
+  <div class="fi">
+    <div style="font-size:0.7rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:1.25rem">Currently</div>
+    <div style="display:flex;flex-direction:column;gap:0.75rem">
+      <div style="display:flex;align-items:center;gap:1rem;padding:1rem 1.25rem;background:var(--surface);border-radius:8px;border:1px solid var(--border)">
+        <span style="font-size:1.2rem">📍</span>
+        <div>
+          <div style="font-size:0.8rem;font-weight:500">Planning a trip to</div>
+          <div style="font-size:0.88rem;color:var(--muted)">Somewhere I haven't been yet — list is long, time is short.</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:1rem;padding:1rem 1.25rem;background:var(--surface);border-radius:8px;border:1px solid var(--border)">
+        <span style="font-size:1.2rem">🎵</span>
+        <div>
+          <div style="font-size:0.8rem;font-weight:500">Listening to</div>
+          <div style="font-size:0.88rem;color:var(--muted)">Whatever matches the vibe of the drive.</div>
+        </div>
+      </div>
+      <div style="display:flex;align-items:center;gap:1rem;padding:1rem 1.25rem;background:var(--surface);border-radius:8px;border:1px solid var(--border)">
+        <span style="font-size:1.2rem">🎯</span>
+        <div>
+          <div style="font-size:0.8rem;font-weight:500">Working on</div>
+          <div style="font-size:0.88rem;color:var(--muted)">Staying consistent. In the gym, in life, everywhere.</div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
